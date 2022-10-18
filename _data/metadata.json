@@ -1,0 +1,26 @@
+{
+  "title": "REALMEN",
+  "url": "https://realmen.it",
+  "domain": "realmen.it",
+  "description": "Realmen è un podcast",
+  "genre": "Insert a schema.org genre",
+  "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
+  "sendWebVitals": false,
+  "feed": {
+    "subtitle": "Realmen take responsability",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://realmen.it"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://realmen.it/feed/feed.json"
+  },
+  "author": {
+    "name": "Emanuele e Francesco",
+    "twitterHandle": ""
+  },
+  "publisher": {
+    "name": "5pani2pesci"
+  }
+}
