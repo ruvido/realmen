@@ -1,13 +1,18 @@
+
+@font-face{font-family:gagalin;font-style:normal;font-weight:400;src:local('Gagalin'),url('/fonts/Gagalin-Regular.woff') format('woff')}
+
+
 /* Color customization */
 :root {
+/*  --main-color: 		#ffe100ff;*/
   --primary:      var(--color-text-dark);
   --primary-dark: #e7bf60;
 
   --very-light: 		#fffdebff;
   --main-color-light: 	#ffec5cff;
-  --main-color: 		#ffe100ff;
+  --main-color:			#FFDE59;
   --color-text: 		#1f1f1fff;
-  --color-text: 		#1f1f1fff;
+  --color-text: 		#222222;
   --color-light-text: 	#313131ff;
   --color-alert: 		#f55d5dff;
 }
@@ -898,12 +903,15 @@ header nav {
   text-align: right;
   line-height: 4;
 }
-header nav h1 {
-	padding: 0;
+header nav h1 a{
+	font-family: 'gagalin';
+}
+header nav h1  {
+	margin: 0;
+	padding: 0; 
   float: left;
   font-size: inherit;
   line-height: inherit;
-  margin: 0;
   text-align: left;
 }
 header nav a {
@@ -927,7 +935,9 @@ header nav label {
   text-align: right;
 }
 header h1 {
-	padding: 1.5em;
+  font-family: 'gagalin';
+	padding: 1.5rem;
+	padding-bottom: 0;
 	text-align: left;
 }
 main {
@@ -1139,3 +1149,7 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+
+h1,h2,h3,h4 {
+font-style: normal;
+font-family: 'gagalin';}
