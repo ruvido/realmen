@@ -1,9 +1,12 @@
 ---
 layout: layouts/home.njk
-permalink: /posts/
+permalink: /search/
+eleventyNavigation:
+  key: Search
+  order: 3
 ---
 
-<h1>Archive</h1>
+<h1>Search</h1>
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
