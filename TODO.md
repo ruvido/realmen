@@ -11,6 +11,8 @@
 # Features
 - [ ] search engine
 - [ ] footer list
+- [ ] podcast transcripts for better SEO
+- [ ] SEO
 # Hosting
 - [ ] github, codeberg, cloudflare, vps (??)
 - [ ] check podcast hosting

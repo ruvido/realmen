@@ -40,6 +40,9 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+/* ruvido */
+const embedEverything = require("eleventy-plugin-embed-everything")
+/* ruvido */
 const { DateTime } = require("luxon");
 const { promisify } = require("util");
 const fs = require("fs");
@@ -64,6 +67,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(embedEverything);
 
   eleventyConfig.addPlugin(localImages, {
     distPath: "_site",
